@@ -1,67 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 .logo-navigation {
+    padding: 15px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-  height: 20vh;
-   color: white;
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 40px;
 }
 
 .header {
     background-image: url(/assets/architecte-interieur/pipcke-5HrruPyXJtU-unsplash\ \(1\).jpg);
-height: 100vh;
+    object-fit: ;
+    height: 100vh;
+    padding-top: 1px;
+    background-size: cover;
 }
 
 
 .titre-pricipale {
     font-family: "Cormorant Garamond";
-    font-size: 48px;
+    font-size: 69px;
     color: white;
 }
 
-.image-hero{
-    height: 150px;
-    width: 150px;
-    margin: 20px;
+.image-hero {
+ width: 90px;
 }
 
-.container{
+.container {
     margin: auto;
     width: 1080px;
     text-align: center;
 }
 
-.hero-nav{
+.hero-nav {
     display: flex;
     align-items: center;
     padding: 10px;
-    gap: 10px;
-    margin: 20px;
-    height: 50px;
+    gap: 11px;
+
 }
-.hero-nav a{
+
+.hero-nav a {
     display: flex;
     align-items: center;
-    color: white;
+    color: #8B4307;
     text-decoration: none;
-    border: solid 2px white;
     padding: 4px;
     height: 30px;
+
 }
-.au-milieu{
+
+.au-milieu {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.page-au-milieu{
+.page-au-milieu {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 87vh;
+}
+
+.navigation-flottante {
+     margin: 40px 40px 0px 40px;
+}
+
+.bouton-d-accueil {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 4px;
+    height: 30px;
+}
+
+.bouton-d-accueil2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 4px;
+    height: 30px;
+}
+
+.bouton-d-accueil3 {
+display: flex;
+align-items: center;
+height: auto;
+
+}
+
+.titre-secondaire {
+
 }
