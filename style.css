@@ -24,7 +24,7 @@
 
 .titre-pricipale {
     font-family: "Cormorant Garamond";
-    font-size: 69px;
+    font-size: 120px;
     color: white;
 }
 
@@ -39,11 +39,12 @@
 }
 
 .hero-nav {
-    display: flex;
+display: flex;
     align-items: center;
     padding: 10px;
     gap: 11px;
-
+    margin: 20px;
+    flex-direction: row;
 }
 
 .hero-nav a {
@@ -66,7 +67,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 87vh;
+    height: 82.75vh;
 }
 
 .navigation-flottante {
@@ -91,6 +92,7 @@
 display: flex;
 align-items: center;
 height: auto;
+gap: 11px;
 
 }
 
