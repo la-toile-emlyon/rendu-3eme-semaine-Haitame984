@@ -11,6 +11,7 @@
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 50%);
     border-radius: 40px;
+    box-shadow: 0px 1px 13px #8B4307;
 }
 
 .header {
@@ -24,8 +25,14 @@
 
 .titre-pricipale {
     font-family: "Cormorant Garamond";
-    font-size: 120px;
+    font-size: 100px;
     color: white;
+}
+
+.titre-secondaire {
+    font-family: "Cormorant Garamond";
+    font-size: 60px;
+    color: rgb(0, 0, 0);
 }
 
 .image-hero {
@@ -45,6 +52,7 @@ display: flex;
     gap: 11px;
     margin: 20px;
     flex-direction: row;
+    font-size: 22px;
 }
 
 .hero-nav a {
